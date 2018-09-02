@@ -1,0 +1,35 @@
+# Esperanza SLiM Theme
+# Hackdorte | @thecodeled
+# (PDL) Public Domain License
+
+#!messages
+
+msg_color               #FFFFFF
+msg_font                Vera:size=14:bold:dpi=75
+msg_x                   50%
+msg_y                   35%
+msg_shadow_color        #202020
+msg_shadow_xoffset      1
+msg_shadow_yoffset      1
+
+#!background
+
+background_style        stretch
+background_color        #82ADB4
+
+#!controls
+
+input_panel_x           50%
+input_panel_y           50%
+
+input_name_x            35
+input_name_y            284
+
+input_pass_x            35
+input_pass_y            284
+
+input_font              Sans:size=12:dpi=75
+input_color		#EEEEEE
+input_shadow_xoffset 	1
+input_shadow_yoffset 	1
+input_shadow_color   	#202020

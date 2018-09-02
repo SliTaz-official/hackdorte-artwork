@@ -1,0 +1,58 @@
+#! Onsea Conky Theme
+#! hackdorte.deviantart.com
+
+#! General Setting
+override_utf8_locale yes
+update_interval 1
+
+#! Background Setting
+background no
+own_window_transparent yes
+
+#! Windows Setting
+own_window yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+#! Font Setting
+use_xft yes
+xftfont Monospace:size=8
+xftalpha 1
+
+#! Text Setting
+uppercase yes
+use_spacer none
+
+#! Buffer Setting
+double_buffer yes
+no_buffers yes
+
+#! Draw Setting
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+#! Border Setting
+border_inner_margin 10
+border_outer_margin 10
+
+#! Colors Setting
+default_color 919799
+
+#! Position Setting
+alignment tr
+gap_x 350
+gap_y 350
+
+#! Size Setting
+minimum_size 340 0
+maximum_width 340
+
+TEXT
+${font Monospace:size=9}${alignc}${time %D} | ${time %H:%M %z | %Z}${font}${voffset 20}
+CPU: ${cpu cpu1}% ${cpubar cpu1}
+RAM: ${memperc}%  ${mem}/${memmax} ${membar}
+Swap: ${swapperc}% ${swap}/${swapmax} ${swapbar}
+${voffset 20}${alignr}${nodename} Uptime: ${uptime} | ${sysname} ${machine}
+

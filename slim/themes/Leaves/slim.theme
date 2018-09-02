@@ -1,0 +1,35 @@
+# Leaves SLiM Theme
+# Hackdorte | @thecodeled
+# (PDL) Public Domain License
+
+#!messages
+
+msg_color               #FFFFFF
+msg_font                Vera:size=14:bold:dpi=75
+msg_x                   50%
+msg_y                   35%
+msg_shadow_color        #303030
+msg_shadow_xoffset      1
+msg_shadow_yoffset      1
+
+#!background
+
+background_style        stretch
+background_color        #F4F4F4
+
+#!controls
+
+input_panel_x           24%
+input_panel_y           50%
+
+input_name_x            35
+input_name_y            260
+
+input_pass_x            35
+input_pass_y            260
+
+input_font              Sans:size=12:dpi=75
+input_color		#929292
+input_shadow_xoffset 	1
+input_shadow_yoffset 	1
+input_shadow_color   	#E1E1E1
