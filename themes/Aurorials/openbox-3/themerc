@@ -1,0 +1,100 @@
+!! Aurorials Openbox3 Theme
+!! Based on the "Natura" theme by quandar.
+
+!! Global Width
+window.handle.width: 2
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.Width: 1
+padding.width: 4
+
+window.active.border.color: #3D3D3D
+window.inactive.border.color: #3D3D3D
+menu.border.color: #3D3D3D
+menu.overlap: 0
+window.frameColor: #000000
+window.*.client.color: #000000
+*.text.justify: left
+
+!! Menu
+menu.title.bg: flat gradient split
+menu.title.bg.color: #990154 
+menu.title.bg.colorTo: #DE0259
+menu.title.text.color: #FFFFFF
+
+menu.items.bg: flat solid
+menu.items.bg.color: #3D3D3D
+
+menu.items.text.color: #A3A3A3
+menu.items.disabled.text.color: #3D3D3D
+
+menu.items.active.bg: flat gradient split
+menu.items.active.bg.color:  #990154
+menu.items.active.bg.colorTo: #C30258
+menu.items.active.text.color: #FFFFFF
+
+!! Active Windows
+window.active.title.bg: flat gradient split
+window.active.title.bg.color: #3D3D3D
+window.active.title.bg.colorTo: #3D3D3D
+window.active.*.bg.border.color: #3D3D3D
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #9D9D9D
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #777777
+window.active.button.*.bg.border.color: #777777
+
+window.active.button.hover.bg.color: #000000
+window.active.button.hover.bg.border.color: #3D3D3D
+window.active.button.pressed.bg.color: #000000
+window.active.button.pressed.bg.colorTo: #000000
+window.active.button.pressed.image.color: #3D3D3D
+window.active.button.pressed.bg.border.color: #3D3D3D
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #E30048
+
+window.active.handle.bg:  flat solid
+window.active.handle.bg.color: #C30258
+
+window.*.grip.bg:  flat solid 
+window.*.grip.bg.color: #C30258
+
+window.handle.width: 2
+
+!! Inactive Windows
+window.inactive.title.bg: flat gradient vertical
+window.inactive.title.bg.color: #3D3D3D
+window.inactive.title.bg.colorTo: #3D3D3D
+window.inactive.*.border.color: #3D3D3D
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #CCCCCC
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.bg.color: #000000
+window.inactive.button.*.image.color:  #BB005E
+window.inactive.button.*.bg.border.color: #BB005E
+
+window.inactive.button.pressed.bg.color: #BB005E
+window.inactive.button.pressed.bg.border.color: #BB005E
+window.inactive.button.pressed.image.color: #BB005E
+
+window.inactive.button.hover.bg.color: #BB005E
+window.inactive.button.hover.bg.border.color: #BB005E
+window.inactive.button.hover.image.color: #BB005E
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #BB005E
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #000000
+window.inactive.grip.bg:  parentrelative
+
+!! Fonts
+window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=75
+window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=0
+menu.items.font: 
+menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=75

@@ -1,0 +1,37 @@
+
+! Aurorials Slitaz (Pack) Theme
+! By: HolkFoor (https://twitter.com/holkfoor)
+! Version: 1.0-20130703
+
+========================================================
+
+1. Aurorials Slim Theme
+
+a) Install Slim Theme
+   Directory: /usr/share/slim/themes
+
+b) Config Slim Theme
+   File: /etc/slim.conf
+   Line: current_theme
+
+========================================================
+
+2. Aurorials GTK2 & Openbox Themes
+
+a) Important Notice!
+   Aurorials depends on murrine engine.
+
+b) Install GTK2 & Openbox
+   Directory: /usr/share/themes
+   Optional : /home/$USER/.themes
+
+========================================================
+
+3. Aurorials Wallpaper
+
+a) You can install the wallpaper in some directory. 
+   Or install in /usr/share/backgrounds
+
+========================================================
+
+  Thank you for using Aurorials theme.
