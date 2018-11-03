@@ -1,0 +1,100 @@
+!! Madeirado Openbox3 Theme For Slitaz GNU Linux.
+!! Based on the "Natura" theme by quandar.
+
+!! Global Width
+window.handle.width: 2
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.Width: 1
+padding.width: 4
+
+window.active.border.color: #351A0A
+window.inactive.border.color: #351A0A
+menu.border.color: #CCC5B8
+menu.overlap: 0
+window.frameColor: #EFEDE9
+window.*.client.color: #EFEDE9
+*.text.justify: left
+
+!! Menu
+menu.title.bg: flat gradient split
+menu.title.bg.color: #D66018 
+menu.title.bg.colorTo: #BA5415
+menu.title.text.color: #EFEDE9
+
+menu.items.bg: flat solid
+menu.items.bg.color: #DED6C8
+
+menu.items.text.color: #4D260F
+menu.items.disabled.text.color: #C5BEB1
+
+menu.items.active.bg: flat gradient split
+menu.items.active.bg.color:  #D66018
+menu.items.active.bg.colorTo: #BA5415
+menu.items.active.text.color: #EFEDE9
+
+!! Active Windows
+window.active.title.bg: flat gradient split
+window.active.title.bg.color: #D66018
+window.active.title.bg.colorTo: #BA5415
+window.active.*.bg.border.color: #351A0A
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #EFEDE9
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #EFEDE9
+window.active.button.*.bg.border.color: #351A0A
+
+window.active.button.hover.bg.color: #351A0A
+window.active.button.hover.bg.border.color: #DED6C8
+window.active.button.pressed.bg.color: #351A0A
+window.active.button.pressed.bg.colorTo: #351A0A
+window.active.button.pressed.image.color: #DED6C8
+window.active.button.pressed.bg.border.color: #DED6C8
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #C95B16
+
+window.active.handle.bg:  flat solid
+window.active.handle.bg.color: #BA5415
+
+window.*.grip.bg:  flat solid 
+window.*.grip.bg.color: #BA5415
+
+window.handle.width: 2
+
+!! Inactive Windows
+window.inactive.title.bg: flat gradient vertical
+window.inactive.title.bg.color: #DED6C8
+window.inactive.title.bg.colorTo: #DED6C8
+window.inactive.*.border.color: #DED6C8
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #351A0A
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.bg.color: #351A0A
+window.inactive.button.*.image.color:  #D4CCBF
+window.inactive.button.*.bg.border.color: #D4CCBF
+
+window.inactive.button.pressed.bg.color: #D4CCBF
+window.inactive.button.pressed.bg.border.color: #D4CCBF
+window.inactive.button.pressed.image.color: #D4CCBF
+
+window.inactive.button.hover.bg.color: #D4CCBF
+window.inactive.button.hover.bg.border.color: #D4CCBF
+window.inactive.button.hover.image.color: #D4CCBF
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #D4CCBF
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #EFEDE9
+window.inactive.grip.bg:  parentrelative
+
+!! Fonts
+window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=75
+window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=0
+menu.items.font: 
+menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=75

@@ -1,0 +1,34 @@
+
+! Madeirado Slitaz (Pack) Theme
+! By: HolkFoor (https://twitter.com/holkfoor)
+! Version: 1.0-20130701
+
+========================================================
+
+1. INSTALL Madeirado Slim Theme
+
+a) Install Slim Theme
+   Directory: /usr/share/slim/themes
+
+b) Config Slim Theme
+   File: /etc/slim.conf
+   Line: current_theme
+
+========================================================
+
+2. INSTALL Madeirado GTK2 & Openbox Themes
+
+a) Install GTK2 & Openbox
+   Directory: /usr/share/themes
+   Optional : /home/$USER/.themes
+
+========================================================
+
+3. INSTALL Madeirado Wallpaper
+
+a) You can install the wallpaper in some directory. 
+   Or install in /usr/share/backgrounds
+
+========================================================
+
+  Thank you for using Madeirado theme.
