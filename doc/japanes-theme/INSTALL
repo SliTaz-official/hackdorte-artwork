@@ -1,0 +1,24 @@
+! Japanes GTK2 & Openbox3 Theme
+! Author: HolkFoor : holkfoor.deviantart.com
+! License: PDL - Public Domain (FREE)
+--------------------------------------------------
+
+# INSTALL all themes (GTK & Openbox)
+
+Copy the Japanes folder for:
+
+/usr/share/themes (All users)
+
+Or 
+
+/home/$USER/.themes (Only you)
+
+# Go to the "GTK theme manager" of your system 
+  and select Japanes.
+
+# Go to the "Openbox theme manager" of your 
+  system and select Japanes.
+
+--------------------------------------------------
+
+# Thank you for using Japanes :)

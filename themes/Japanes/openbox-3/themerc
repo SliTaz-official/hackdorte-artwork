@@ -1,0 +1,122 @@
+# Japanes Openbox3 Theme
+# Author: HolkFoor : holkfoor.deviantart.com
+# License: PDL - Public Domain (FREE)
+
+# Windows : Geometry
+padding.width: 8
+border.width: 2
+window.client.padding.width: 2
+window.client.padding.height: 2
+window.handle.width: 4
+
+# Menu : Geometry
+menu.border.width: 4
+menu.overlap: 0
+
+# Border : Colors
+window.active.border.color: #292B2D
+window.inactive.border.color: #292B2D
+menu.border.color: #292B2D
+window.active.client.color: #84644D
+window.inactive.client.color: #84644D
+
+# Text : Shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Window : Title Align
+window.label.text.justify: left
+
+# Windows : Active
+window.active.title.bg: Flat
+window.active.title.bg.color: #1B2228
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #BD8F6E
+
+# Windows : Active Bottom Center Color
+window.active.handle.bg: Flat
+window.active.handle.bg.color: #A52A2A
+
+# Windows : Active Bottom Left|Right Color
+window.active.grip.bg: Flat
+window.active.grip.bg.color: #E1A662
+
+# Windows : Buttons Actions
+window.active.button.unpressed.bg: Flat
+window.active.button.unpressed.bg.color: #1B2228
+window.active.button.unpressed.image.color: #E8E0D3
+
+window.active.button.pressed.bg: Flat
+window.active.button.pressed.bg.color: #292B2D
+window.active.button.pressed.image.color: #FFFFFF
+
+window.active.button.hover.bg: Flat
+window.active.button.hover.bg.color: #1B2228
+window.active.button.hover.image.color: #FFF7D0
+
+window.active.button.disabled.bg: Flat
+window.active.button.disabled.bg.color: #1B2228
+window.active.button.disabled.image.color: #1B2228
+
+# Windows : Inactive
+window.inactive.title.bg: Flat
+window.inactive.title.bg.color: #50171F
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #B4945B
+
+# Windows : Inactive Bottom Center Color
+window.inactive.handle.bg: Flat
+window.inactive.handle.bg.color: #B88B6D
+
+# Windows : Inactive Bottom Left|Right Color
+window.inactive.grip.bg: Flat
+window.inactive.grip.bg.color: #1B2228
+
+# Windows : Buttons Actions
+window.inactive.button.unpressed.bg: Flat
+window.inactive.button.unpressed.bg.color: #50171F
+window.inactive.button.unpressed.image.color: #EDCD9A
+
+window.inactive.button.pressed.bg: Flat
+window.inactive.button.pressed.bg.color: #292B2D
+window.inactive.button.pressed.image.color: #EDCD9A
+
+window.inactive.button.hover.bg: Flat
+window.inactive.button.hover.bg.color: #50171F
+window.inactive.button.hover.image.color: #FFFFFF
+
+window.inactive.button.disabled.bg: Flat
+window.inactive.button.disabled.bg.color: #50171F
+window.inactive.button.disabled.image.color: #50171F
+
+# Menu : (ALL) Setting
+menu.title.bg: flat
+menu.title.bg.color: #292B2D
+menu.title.text.color: #E8E0D3
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #090101
+menu.items.bg.border.color: #876133
+menu.items.text.color: #84644D
+menu.items.justify: left
+
+menu.items.disabled.text.color: #090101
+menu.bullet.image.color: #0F080A
+menu.bullet.selected.image.color: #F5DCA7
+
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #270210
+menu.items.active.bg.border.color: #5D192D
+menu.items.active.text.color: #F7E8A8
+
+#OSD : Settings
+osd.border.width: 4
+osd.border.color: #825132
+osd.bg: flat border
+osd.bg.color: #531429
+osd.bg.border.color: #081619
+osd.label.bg: parentrelative
+osd.label.text.color: #EDC27C
